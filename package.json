@@ -1,0 +1,20 @@
+{
+  "name": "immunebytesdemoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "npx hardhat compile",
+    "deploy" : "npx hardhat deploy",
+    "test": "npx hardhat test"
+  },
+  "author": "Karan Siddhpura",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
